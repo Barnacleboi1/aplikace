@@ -45,7 +45,8 @@ public class aplikace {
             arrayOfNumbers = inputNumbers.split("");
         }
 
-        // pokud output file není zadaný, printuju do standartního vstupu
+        // pokud output file není zadaný, printuju do standartního vstupu,
+        // pokud je, píšu výsledek do něj
         // tady se pokusím i ošetřit jestli zadaná čísla nejsou např. Stringy
 
         if (output == null) {
