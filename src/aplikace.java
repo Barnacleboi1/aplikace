@@ -39,11 +39,8 @@ public class aplikace {
 
         String[] arrayOfNumbers;
         String inputNumbers = scanner.nextLine();
-        if (inputNumbers.contains(" ")) {
-            arrayOfNumbers = inputNumbers.split(" ");
-        } else {
-            arrayOfNumbers = inputNumbers.split("");
-        }
+        arrayOfNumbers = inputNumbers.split(" ");
+
 
         // pokud output file není zadaný, printuju do standartního vstupu,
         // pokud je, píšu výsledek do něj
